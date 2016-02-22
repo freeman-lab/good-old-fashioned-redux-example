@@ -7,7 +7,7 @@ This reproduces one of the examples from the [`redux`](https://github.com/reactj
 download with
 
 ```
-git clone https://github.com/freeman-lab/
+git clone https://github.com/freeman-lab/good-old-fashioned-redux-example.git
 ```
 
 then install and run
