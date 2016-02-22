@@ -4,7 +4,7 @@
   "description": "redux example using good old fashioned javascript",
   "main": "index.js",
   "scripts": {
-    "start": "budo index.js --watch"
+    "start": "browserify index.js -o bundle.js && http-server"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "redux": "^3.0.0"
   },
   "devDependencies": {
-    "budo": "^8.0.4"
+    "browserify": "^13.0.0",
+    "http-server": "^0.9.0"
   }
 }
