@@ -1,0 +1,32 @@
+{
+  "name": "good-old-fashioned-redux-example",
+  "version": "0.0.0",
+  "description": "good old fashioned redux example",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo --watch index.js:bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeman-lab/good-old-fashioned-redux-example.git"
+  },
+  "keywords": [
+    "redux",
+    "react"
+  ],
+  "author": "freeman-lab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freeman-lab/good-old-fashioned-redux-example/issues"
+  },
+  "homepage": "https://github.com/freeman-lab/good-old-fashioned-redux-example/#readme",
+  "dependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-redux": "^4.2.1",
+    "redux": "^3.0.0"
+  },
+  "devDependencies": {
+    "budo": "^8.0.4"
+  }
+}
