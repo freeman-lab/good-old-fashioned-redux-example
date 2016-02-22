@@ -4,7 +4,7 @@
   "description": "redux example using good old fashioned javascript",
   "main": "index.js",
   "scripts": {
-    "start": "budo --watch index.js:bundle.js"
+    "start": "budo index.js --watch"
   },
   "repository": {
     "type": "git",

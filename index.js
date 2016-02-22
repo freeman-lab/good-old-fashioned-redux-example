@@ -4,7 +4,8 @@ var counter = require('./components/counter')
 var reducer = require('./reducers/index')
 
 var store = createStore(reducer)
-var root = document.getElementById('root')
+var root = document.body.appendChild(document.createElement('div'))
+root.id = 'root'
 
 function increment () {
   store.dispatch({ type: 'INCREMENT' })
