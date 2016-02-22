@@ -14,8 +14,8 @@ var counter = react.createClass({
 
   render: function () {
     return DOM.div(
-      null, 
-      this.props.value, 
+      null,
+      this.props.value,
       ' ',
       DOM.button({onClick: this.props.increment}, '+'),
       DOM.button({onClick: this.props.decrement}, '-'),

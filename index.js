@@ -1,4 +1,3 @@
-var react = require('react')
 var DOM = require('react-dom')
 var createStore = require('redux').createStore
 var counter = require('./components/counter')
@@ -12,10 +11,10 @@ function increment () {
 }
 
 function decrement () {
-  store.dispatch({ type: 'DECREMENT' }) 
+  store.dispatch({ type: 'DECREMENT' })
 }
 
-function render() {
+function render () {
   DOM.render(counter({
     increment: increment,
     decrement: decrement,
